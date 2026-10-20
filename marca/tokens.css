@@ -1,0 +1,38 @@
+/* Design system em variáveis. As mesmas decisões de marca/design-system.md, pra site, carrossel, proposta e
+   vídeo nascerem da mesma fonte. Padrão neutro até o /marca montar o seu. */
+:root {
+  /* cor, com o papel de cada uma */
+  --fundo: #ffffff;
+  --fundo-2: #f5f5f7;
+  --tinta: #1d1d1f;
+  --tinta-2: #6e6e73;
+  --destaque: #0a6cff;
+  --sobre-destaque: #ffffff;
+  --linha: rgb(0 0 0 / 0.08);
+
+  /* fontes */
+  --fonte-titulo: -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+  --fonte-texto: -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+  --peso-titulo: 700;
+  --tracking-titulo: -0.02em;
+
+  /* tamanho */
+  --t-micro: 0.75rem;
+  --t-apoio: 0.875rem;
+  --t-texto: 1rem;
+  --t-titulo-3: 1.5rem;
+  --t-titulo-2: clamp(1.75rem, 1.2rem + 2vw, 2.75rem);
+  --t-titulo-1: clamp(2.25rem, 1.5rem + 3.5vw, 4.5rem);
+
+  /* espaço (escala de 4 px) */
+  --e-1: 4px; --e-2: 8px; --e-3: 12px; --e-4: 16px; --e-6: 24px; --e-8: 32px; --e-12: 48px; --e-16: 64px; --e-24: 96px;
+  --margem: clamp(16px, 4vw, 40px);
+  --largura: 72rem;
+
+  /* forma e movimento */
+  --raio: 12px;
+  --raio-pilula: 999px;
+  --mola: cubic-bezier(0.32, 0.72, 0, 1);
+  --t-rapido: 300ms;
+  --t-normal: 500ms;
+}

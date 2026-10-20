@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prova do design system</title>
+<link rel="stylesheet" href="tokens.css">
+<!-- Abra este arquivo no navegador: ele mostra o design system (marca/tokens.css) aplicado. Toda vez que o
+     /marca muda os tokens, abra de novo e confira antes de construir qualquer coisa. -->
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--tinta); font: 400 var(--t-texto)/1.5 var(--fonte-texto); }
+  main { width: min(100% - 2 * var(--margem), var(--largura)); margin: 0 auto; padding: var(--e-12) 0 var(--e-24); display: grid; gap: var(--e-16); }
+  h1, h2, h3 { font-family: var(--fonte-titulo); font-weight: var(--peso-titulo); letter-spacing: var(--tracking-titulo); line-height: 1.05; margin: 0; }
+  h1 { font-size: var(--t-titulo-1); } h2 { font-size: var(--t-titulo-2); } h3 { font-size: var(--t-titulo-3); }
+  .rotulo { font-size: var(--t-micro); letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-2); margin-bottom: var(--e-3); }
+  .cores { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: var(--e-3); }
+  .cor { border-radius: var(--raio); border: 1px solid var(--linha); overflow: hidden; }
+  .cor i { display: block; height: 72px; }
+  .cor small { display: block; padding: var(--e-2) var(--e-3); font-size: var(--t-apoio); color: var(--tinta-2); }
+  .botao { display: inline-flex; align-items: center; gap: var(--e-2); padding: var(--e-3) var(--e-6); border-radius: var(--raio-pilula); background: var(--destaque); color: var(--sobre-destaque); font-weight: 600; text-decoration: none; transition: transform var(--t-rapido) var(--mola); }
+  .botao:hover { transform: translateY(-2px); }
+  .botao.secundario { background: transparent; color: var(--tinta); border: 1px solid var(--linha); }
+  .heroi { padding: var(--e-16) var(--e-8); border-radius: calc(var(--raio) * 2); background: var(--fundo-2); display: grid; gap: var(--e-6); }
+  .heroi p { max-width: 36rem; color: var(--tinta-2); font-size: 1.125rem; }
+  .cartoes { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--e-4); }
+  .cartao { padding: var(--e-6); border-radius: var(--raio); border: 1px solid var(--linha); background: var(--fundo); }
+  .cartao p { color: var(--tinta-2); font-size: var(--t-apoio); margin: var(--e-2) 0 0; }
+  input, textarea { width: 100%; padding: var(--e-3) var(--e-4); border-radius: var(--raio); border: 1px solid var(--linha); background: var(--fundo); font: inherit; color: inherit; }
+</style></head>
+<body><main>
+  <section>
+    <p class="rotulo">Prova do design system</p>
+    <h1>Tudo nasce daqui.</h1>
+    <p style="color: var(--tinta-2); max-width: 40rem; margin-top: var(--e-4)">Este arquivo mostra as decisões de <code>marca/tokens.css</code> aplicadas. Se algo aqui está errado, conserte no design system, não na página.</p>
+  </section>
+  <section><p class="rotulo">Cores</p><div class="cores" id="cores"></div></section>
+  <section><p class="rotulo">Tipos</p><h1>Título grande</h1><h2 style="margin-top: var(--e-4)">Título de seção</h2><h3 style="margin-top: var(--e-4)">Título pequeno</h3><p style="margin-top: var(--e-4); max-width: 40rem">Texto corrido, do tamanho que a pessoa lê sem esforço no celular. Uma frase curta. E uma mais longa, pra ver a entrelinha trabalhar no parágrafo inteiro.</p></section>
+  <section><p class="rotulo">Botões</p><a class="botao" href="#">Ação principal</a> &nbsp; <a class="botao secundario" href="#">Ação secundária</a></section>
+  <section><p class="rotulo">Uma seção</p><div class="heroi"><h2>Um herói com a cara da marca.</h2><p>A promessa em uma frase, o apoio em outra, e um botão só.</p><div><a class="botao" href="#">Quero</a></div></div></section>
+  <section><p class="rotulo">Cartões</p><div class="cartoes"><div class="cartao"><h3>Um</h3><p>O que esse cartão resolve.</p></div><div class="cartao"><h3>Dois</h3><p>O que esse cartão resolve.</p></div><div class="cartao"><h3>Três</h3><p>O que esse cartão resolve.</p></div></div></section>
+  <section><p class="rotulo">Formulário</p><div style="display:grid; gap: var(--e-3); max-width: 28rem"><input placeholder="Seu nome"><textarea rows="3" placeholder="Sua mensagem"></textarea><a class="botao" href="#">Enviar</a></div></section>
+</main>
+<script>
+  // lê as cores do tokens.css pelo nome, pra prova não desatualizar quando o /marca mudar os valores
+  const nomes = ["fundo", "fundo-2", "tinta", "tinta-2", "destaque", "sobre-destaque", "linha"];
+  const est = getComputedStyle(document.documentElement);
+  document.getElementById("cores").innerHTML = nomes.map((n) => `<div class="cor"><i style="background: var(--${n})"></i><small>--${n}<br>${est.getPropertyValue("--" + n).trim()}</small></div>`).join("");
+</script>
+</body></html>

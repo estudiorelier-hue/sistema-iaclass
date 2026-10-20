@@ -1,0 +1,59 @@
+{
+  "comentario": "As skills do ecossistema que o sistema traz instaladas. Fonte e nome exatos pro instalador: npx -y skills@latest add <fonte> --skill <nome> --skill <outro> -a claude-code -y --copy (um --skill por nome; vírgula não funciona). O skills-lock.json da raiz é o registro do que está instalado.",
+  "fontes": [
+    {
+      "fonte": "Leonxlnx/taste-skill",
+      "licenca": "MIT",
+      "skills": [
+        "design-taste-frontend",
+        "design-taste-frontend-v1",
+        "stitch-design-taste",
+        "gpt-taste"
+      ]
+    },
+    {
+      "fonte": "nutlope/hallmark",
+      "licenca": "MIT",
+      "skills": [
+        "hallmark"
+      ]
+    },
+    {
+      "fonte": "199-biotechnologies/motion-dev-animations-skill",
+      "licenca": "MIT",
+      "skills": [
+        "motion-dev-animations"
+      ]
+    },
+    {
+      "fonte": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "licenca": "MIT",
+      "skills": [
+        "design-system",
+        "design",
+        "brand",
+        "banner-design",
+        "slides",
+        "ui-styling",
+        "ui-ux-pro-max"
+      ]
+    },
+    {
+      "fonte": "anthropics/skills",
+      "licenca": "Apache-2.0",
+      "skills": [
+        "canvas-design",
+        "web-artifacts-builder",
+        "webapp-testing",
+        "skill-creator"
+      ]
+    },
+    {
+      "fonte": "vercel-labs/skills",
+      "licenca": "MIT",
+      "skills": [
+        "find-skills"
+      ]
+    }
+  ]
+}

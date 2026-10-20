@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git rev-parse --git-dir >/dev/null 2>&1 || exit 0; git add -A >/dev/null 2>&1; git diff --staged --quiet || git commit -q -m \"versão automática: $(date +%Y-%m-%d\\ %H:%M)\" >/dev/null 2>&1; exit 0"
+          }
+        ]
+      }
+    ]
+  }
+}

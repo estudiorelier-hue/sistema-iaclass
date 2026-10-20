@@ -1,0 +1,27 @@
+# Mídia pesada fica fora das versões (vídeo, áudio, foto de câmera)
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.heic
+*.dng
+*.psd
+*.ai
+*.zip
+
+# Chaves e segredos: nunca
+.env
+.env.*
+*.key
+*.pem
+
+# Lixo de sistema e dependências
+.DS_Store
+Thumbs.db
+node_modules/
+__pycache__/
+.venv/

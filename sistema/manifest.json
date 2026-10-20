@@ -1,0 +1,22 @@
+{
+  "nome": "Sistema IA CLASS",
+  "versao": "0.1.0",
+  "data": "2026-10-19",
+  "repositorio": "estudiorelier-hue/sistema-iaclass",
+  "nosso": [
+    "sistema/",
+    ".claude/skills/comecar",
+    ".claude/skills/marca",
+    ".claude/skills/atualizar-sistema",
+    "COMECE-AQUI.md"
+  ],
+  "da_aluna": [
+    "CLAUDE.md",
+    "_contexto/",
+    "marca/",
+    "entrada/",
+    "tarefas.md",
+    "e todas as áreas"
+  ],
+  "observacao": "O /atualizar-sistema troca só o que está em 'nosso'. O resto é da aluna e nunca é sobrescrito."
+}
