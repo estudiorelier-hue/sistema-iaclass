@@ -8,6 +8,7 @@ escolhe. Chamar pelo nome (`/nome`) serve quando você quer garantir.
 | Skill | O que faz |
 |---|---|
 | `comecar` | Monta o sistema: pergunta quem você é, cria só as áreas que você usa, escreve o `CLAUDE.md` e o contexto. Depois, adiciona área ou cliente. |
+| `copy-da-pagina` | Escreve todo o texto de um site, landing page ou linktree: faz as perguntas certas, monta a estrutura na ordem em que quem lê decide e entrega o `copy.md`. Também portfólio e proposta por link. |
 | `marca` | Monta o design system (do zero, do manual do cliente, de um produto irmão ou de um export do Claude Design) e gera a `prova.html` pra ver no navegador. |
 | `atualizar-sistema` | Traz a versão nova do curso (método, catálogos, skills) sem tocar no que é seu. |
 

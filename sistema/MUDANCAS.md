@@ -2,6 +2,12 @@
 
 O que entrou em cada versão do Sistema IA CLASS. O `/atualizar-sistema` mostra daqui o que mudou desde a sua versão.
 
+## 0.2.0 · 21/10/2026
+
+- Skill nova do curso: `copy-da-pagina`. Escreve a copy inteira de um site, de uma landing page ou de um linktree
+  (seu ou de cliente): descobre o tipo certo, pergunta o que falta em blocos, mostra a estrutura antes e entrega o
+  `copy.md` pronto pra construir, com `{{marcado}}` o que só você sabe. Também faz portfólio e proposta por link.
+
 ## 0.1.0 · 19/10/2026
 
 - Primeira versão: o núcleo (`CLAUDE.md`, `_contexto/`, `marca/` com o design system neutro, `entrada/`,

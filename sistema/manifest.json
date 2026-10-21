@@ -1,13 +1,14 @@
 {
   "nome": "Sistema IA CLASS",
-  "versao": "0.1.0",
-  "data": "2026-10-19",
+  "versao": "0.2.0",
+  "data": "2026-10-21",
   "repositorio": "estudiorelier-hue/sistema-iaclass",
   "nosso": [
     "sistema/",
     ".claude/skills/comecar",
     ".claude/skills/marca",
     ".claude/skills/atualizar-sistema",
+    ".claude/skills/copy-da-pagina",
     "COMECE-AQUI.md"
   ],
   "da_aluna": [

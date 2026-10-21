@@ -7,11 +7,15 @@ falta e escreva o pedido com ela antes de construir.
 ```
 sites/<projeto>/
   pedido.md          o pedido completo (modelo em sistema/metodo/pedido-modelo.md)
+  briefing.md        as respostas da entrevista da copy
+  copy.md            o texto da página inteira, fechado antes de construir (skill copy-da-pagina)
   rascunho/          a foto do papel, as referências
   index.html  css/  js/  assets/   o site em si
   historico/         versões descartadas
 ```
 
+- **Texto antes do layout.** Sem `copy.md` fechada, não construa: chame a skill `copy-da-pagina`. Ela pergunta, monta
+  a estrutura e escreve a página inteira.
 - Sem framework: HTML, CSS e JavaScript simples, que abrem com dois cliques e publicam em qualquer lugar.
 - O visual vem de `marca/tokens.css` (ou da `marca/` do cliente). Nunca inventar cor no meio do CSS.
 - Antes de dar por pronto: abrir no navegador, no computador e no celular (`webapp-testing` faz isso), e conferir texto
