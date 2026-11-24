@@ -9,6 +9,7 @@ Instale só quando for usar; o Claude avisa qual falta. Peça pra ele instalar: 
 | **Python** | scripts de design e de teste | `design`, `ui-styling`, `webapp-testing`, `ui-ux-pro-max` |
 | **Playwright** | abrir o site num navegador invisível, tirar print e conferir | `webapp-testing`, `web-artifacts-builder`, `design` |
 | **Chave da Gemini** | gerar logo, banner e imagem | `design`, `banner-design` |
+| **Conta no Magnific** | gerar a imagem e o vídeo a partir do prompt (no site, sem instalar nada) | `imagem-nanobanana`, `video-seedance` |
 
 ## Como instalar
 

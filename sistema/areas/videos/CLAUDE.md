@@ -6,4 +6,6 @@ Vídeos gravados e editados. O arquivo de vídeo fica fora das versões (é pesa
   cena), `transcricao.txt` e `editado/` (o resultado).
 - O roteiro vem antes da gravação: a fala, uma frase por linha, o título na tela, as notas de cena e a chamada.
 - A edição segue a área segura do Reels: nada nos 110 px do topo nem nos 420 px de baixo, 64 px de margem.
+- Vídeo gerado com I.A (animar foto, b-roll, produto, cena): skill `video-seedance`, que escreve o prompt pra gerar
+  no Magnific. Os prompts ficam em `prompts.md` da pasta do vídeo.
 - Ferramentas de edição entram no módulo de vídeo do curso; até lá, o CapCut com o roteiro em mãos.

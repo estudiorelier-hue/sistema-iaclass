@@ -24,6 +24,8 @@ tem as skills do curso instaladas. Tudo que você criar no curso vai morar aqui.
 | `/comecar` | montar o sistema; depois, adicionar uma área (`/comecar vídeos`) ou um cliente (`/comecar cliente Ana`) |
 | `/marca` | montar ou atualizar o design system, seu ou de um cliente |
 | `/copy-da-pagina` | escrever todo o texto de um site, landing page ou linktree antes de construir |
+| `/imagem-nanobanana` | escrever o prompt de uma foto, ensaio, produto ou ilustração pra gerar no Magnific |
+| `/video-seedance` | escrever o prompt de um vídeo (animar foto, b-roll, cena) pra gerar no Magnific |
 | `/atualizar-sistema` | trazer a versão nova do curso sem mexer no que é seu |
 
 As outras skills instaladas (design, movimento, imagens, slides, testes) estão explicadas em

@@ -35,7 +35,7 @@ git clone https://github.com/estudiorelier-hue/sistema-iaclass.git
 | `marca/` | o seu design system: cores, fontes, espaço, e uma página pra ver tudo no navegador |
 | `entrada/` | onde você joga prints, PDFs e referências sem organizar; o Claude leva pro lugar certo |
 | `sistema/` | o método do curso, o catálogo das skills, os modelos das pastas e a versão |
-| `.claude/skills/` | as skills do curso (`/comecar`, `/marca`, `/copy-da-pagina`, `/atualizar-sistema`) e as 18 de design |
+| `.claude/skills/` | as skills do curso (`/comecar`, `/marca`, `/copy-da-pagina`, `/imagem-nanobanana`, `/video-seedance`, `/atualizar-sistema`) e as 18 de design |
 
 As pastas de trabalho (conteúdo, sites, vídeos, clientes e as outras) não vêm prontas: o `/comecar` cria só as que
 você vai usar.
