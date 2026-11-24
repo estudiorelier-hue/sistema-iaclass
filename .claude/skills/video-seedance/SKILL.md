@@ -1,6 +1,6 @@
 ---
 name: video-seedance
-description: Escreve o prompt de vídeo pro Seedance (a versão mais nova que estiver no Magnific), pronto pra colar e gerar. Anima uma foto (a sua, de produto, a que saiu do /imagem-nanobanana), cria uma cena do zero, faz vídeo com começo e fim definidos, sequência com vários planos, b-roll pra Reels, abertura de anúncio e vídeo com fala e som. Diz o que anexar, o papel de cada anexo e o que escolher na ferramenta, e ajusta o prompt com base no que saiu. Use em /video-seedance, "prompt de vídeo", "prompt pro seedance", "anima essa foto", "b-roll", "vídeo com IA", "transforma essa imagem em vídeo", "cena pro reels", "o vídeo saiu tremido/deformado". Não gera o vídeo: quem gera é você, no Magnific.
+description: 'Escreve o prompt de vídeo pro Seedance (a versão mais nova que estiver no Magnific), pronto pra colar e gerar. Anima uma foto (a sua, de produto, a que saiu do /imagem-nanobanana), cria uma cena do zero, faz vídeo com começo e fim definidos, sequência com vários planos, b-roll pra Reels, abertura de anúncio e vídeo com fala e som. Diz o que anexar, o papel de cada anexo e o que escolher na ferramenta, e ajusta o prompt com base no que saiu. Use em /video-seedance, "prompt de vídeo", "prompt pro seedance", "anima essa foto", "b-roll", "vídeo com IA", "transforma essa imagem em vídeo", "cena pro reels", "o vídeo saiu tremido/deformado". Não gera o vídeo: quem gera é você, no Magnific.'
 ---
 
 # /video-seedance

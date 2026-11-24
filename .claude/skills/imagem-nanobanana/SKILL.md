@@ -1,6 +1,6 @@
 ---
 name: imagem-nanobanana
-description: Escreve o prompt de imagem pro Nano Banana (Pro, 2 ou o mais novo), pronto pra colar no Magnific e gerar. Foto de pessoa com o rosto igual em todas as imagens (registra a pessoa uma vez e reaproveita), ensaio, cena de produto, ilustração, ícone, capa, fundo e edição de uma imagem que já existe (trocar fundo, roupa, proporção, estilo). Guarda a pessoa e o estilo registrados pra próxima vez e anota o que funcionou. Use em /imagem-nanobanana, "prompt de imagem", "prompt pro nano banana", "gera uma foto minha", "ensaio com IA", "foto de produto", "prompt em JSON", "o rosto saiu diferente", "melhora esse prompt de imagem". Não gera a imagem: quem gera é você, no Magnific.
+description: 'Escreve o prompt de imagem pro Nano Banana (Pro, 2 ou o mais novo), pronto pra colar no Magnific e gerar. Foto de pessoa com o rosto igual em todas as imagens (registra a pessoa uma vez e reaproveita), ensaio, cena de produto, ilustração, ícone, capa, fundo e edição de uma imagem que já existe (trocar fundo, roupa, proporção, estilo). Guarda a pessoa e o estilo registrados pra próxima vez e anota o que funcionou. Use em /imagem-nanobanana, "prompt de imagem", "prompt pro nano banana", "gera uma foto minha", "ensaio com IA", "foto de produto", "prompt em JSON", "o rosto saiu diferente", "melhora esse prompt de imagem". Não gera a imagem: quem gera é você, no Magnific.'
 ---
 
 # /imagem-nanobanana
